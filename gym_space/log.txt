@@ -1,0 +1,1349 @@
+[  +38 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git log -n 1 --pretty=format:%H
+[  +39 ms] Exit code 0 from: git log -n 1 --pretty=format:%H
+[        ] 09cbc34a0b19cef287a82aa4b9966d525369eecc
+[        ] executing: [/home/rolly/Documents/SDKs/flutter/] git describe --match v*.*.* --first-parent --long --tags
+[  +11 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
+[        ] v1.5.4-hotfix.1-0-g09cbc34a0
+[  +14 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/beta
+[        ] executing: [/home/rolly/Documents/SDKs/flutter/] git ls-remote --get-url origin
+[   +8 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +64 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git rev-parse --abbrev-ref HEAD
+[  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] beta
+[  +36 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FuchsiaCacheArtifacts' is not required, skipping update.
+[ +123 ms] Found plugin clipboard_manager at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/clipboard_manager-0.0.4/
+[   +4 ms] Found plugin cloud_firestore at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/
+[  +14 ms] Found plugin firebase_auth at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/
+[   +2 ms] Found plugin firebase_core at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/
+[   +2 ms] Found plugin firebase_messaging at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+4/
+[   +2 ms] Found plugin firebase_storage at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-1.1.0+1/
+[   +9 ms] Found plugin flutter_local_notifications at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.5/
+[   +4 ms] Found plugin fluttertoast at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-2.2.11/
+[   +4 ms] Found plugin google_sign_in at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.0.1+3/
+[   +4 ms] Found plugin image_cropper at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_cropper-0.0.9/
+[   +3 ms] Found plugin image_picker at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.12+1/
+[   +3 ms] Found plugin image_picker_ui at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_ui-0.1.2/
+[   +6 ms] Found plugin path_provider at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/
+[   +7 ms] Found plugin shared_preferences at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+[   +3 ms] Found plugin sqflite at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.5/
+[  +52 ms] Found plugin clipboard_manager at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/clipboard_manager-0.0.4/
+[   +1 ms] Found plugin cloud_firestore at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/
+[   +7 ms] Found plugin firebase_auth at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/
+[   +1 ms] Found plugin firebase_core at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/
+[   +1 ms] Found plugin firebase_messaging at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+4/
+[   +1 ms] Found plugin firebase_storage at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-1.1.0+1/
+[   +4 ms] Found plugin flutter_local_notifications at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.5/
+[   +2 ms] Found plugin fluttertoast at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-2.2.11/
+[   +2 ms] Found plugin google_sign_in at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.0.1+3/
+[   +2 ms] Found plugin image_cropper at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_cropper-0.0.9/
+[   +1 ms] Found plugin image_picker at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.12+1/
+[        ] Found plugin image_picker_ui at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_ui-0.1.2/
+[   +5 ms] Found plugin path_provider at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/
+[   +5 ms] Found plugin shared_preferences at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+[   +1 ms] Found plugin sqflite at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.5/
+[  +74 ms] Initializing gradle...
+[  +14 ms] Using gradle from /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/gradlew.
+[ +243 ms] executing: /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/gradlew -v
+[+1259 ms] 
+           ------------------------------------------------------------
+           Gradle 4.10.2
+           ------------------------------------------------------------
+
+           Build time:   2018-09-19 18:10:15 UTC
+           Revision:     b4d8d5d170bb4ba516e88d7fe5647e2323d791dd
+
+           Kotlin DSL:   1.0-rc-6
+           Kotlin:       1.2.61
+           Groovy:       2.4.15
+           Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
+           JVM:          1.8.0_152-release (JetBrains s.r.o 25.152-b01)
+           OS:           Linux 4.15.0-48-generic amd64
+[  +10 ms] Initializing gradle... (completed in 1.5s)
+[  +16 ms] Resolving dependencies...
+[        ] executing: [/home/rolly/Documents/cs472/472-2019-travel/gym_space/android/] /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/gradlew app:properties
+[+1195 ms] 
+           > Configure project :app
+           Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/dynamicProfile, src/dynamicProfile/nullnull, src/nullnull, src/dynamicProfile, src/nullnullDynamicProfile]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/profile, src/profile/nullnull, src/nullnull, src/profile, src/nullnullProfile]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/dynamicRelease, src/dynamicRelease/nullnull, src/nullnull, src/dynamicRelease, src/nullnullDynamicRelease]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+           WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+           > Task :app:properties
+
+           ------------------------------------------------------------
+           Project :app
+           ------------------------------------------------------------
+
+           INTERNAL__CHECKED_MINIMUM_PLUGIN_VERSIONS: true
+           _internalAndroidGradlePluginDependencyCheckerRegistered: true
+           allprojects: [project ':app']
+           android: com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated@4fb9680f
+           ant: org.gradle.api.internal.project.DefaultAntBuilder@62da1825
+           antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@81eec86
+           archivesBaseName: app
+           artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@50c054c3
+           asDynamicObject: DynamicObject for project ':app'
+           assemble: task ':app:assemble'
+           baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@54bda7c4
+           buildDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app
+           buildFile: /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/app/build.gradle
+           buildOutputs: BaseVariantOutput container
+           buildPath: :
+           buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@66948646
+           buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler@19912cce
+           childProjects: {}
+           class: class org.gradle.api.internal.project.DefaultProject_Decorated
+           classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@4b250573
+           components: SoftwareComponentInternal set
+           configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@721f1854
+           configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@307b06e7
+           configurations: configuration container
+           convention: org.gradle.api.internal.plugins.DefaultConvention@201cbb7a
+           copyFlutterAssetsDebug: task ':app:copyFlutterAssetsDebug'
+           copyFlutterAssetsDynamicProfile: task ':app:copyFlutterAssetsDynamicProfile'
+           copyFlutterAssetsDynamicRelease: task ':app:copyFlutterAssetsDynamicRelease'
+           copyFlutterAssetsProfile: task ':app:copyFlutterAssetsProfile'
+           copyFlutterAssetsRelease: task ':app:copyFlutterAssetsRelease'
+           createMockableJar: task ':app:createMockableJar'
+           defaultArtifacts: org.gradle.api.internal.plugins.DefaultArtifactPublicationSet_Decorated@43f12c97
+           defaultTasks: []
+           deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@49a65105
+           dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@21822ae8
+           dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@648082c9
+           depth: 1
+           description: null
+           displayName: project ':app'
+           distsDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/distributions
+           distsDirName: distributions
+           docsDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/docs
+           docsDirName: docs
+           ext: org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension@2e5f9f5a
+           extensions: org.gradle.api.internal.plugins.DefaultConvention@201cbb7a
+           fileOperations: org.gradle.api.internal.file.DefaultFileOperations@550added
+           fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@65ef78ce
+           flutter: FlutterExtension_Decorated@5993870
+           flutterBuildDebug: task ':app:flutterBuildDebug'
+           flutterBuildDynamicProfile: task ':app:flutterBuildDynamicProfile'
+           flutterBuildDynamicRelease: task ':app:flutterBuildDynamicRelease'
+           flutterBuildProfile: task ':app:flutterBuildProfile'
+           flutterBuildRelease: task ':app:flutterBuildRelease'
+           flutterBuildX86Jar: task ':app:flutterBuildX86Jar'
+           googleServices: com.google.gms.googleservices.GoogleServicesPlugin$GoogleServicesPluginConfig_Decorated@576ed2d6
+           gradle: build 'android'
+           group: android
+           identityPath: :app
+           inheritedScope: org.gradle.api.internal.ExtensibleDynamicObject$InheritedDynamicObject@54088863
+           java: org.gradle.api.plugins.internal.DefaultJavaPluginExtension_Decorated@4abfb324
+           layout: org.gradle.api.internal.file.DefaultProjectLayout@62958bb
+           libsDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/libs
+           libsDirName: libs
+           listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@27f0d2ca
+           logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@4062e3d6
+           logging: org.gradle.internal.logging.services.DefaultLoggingManager@372b1dc7
+           mergeDebugAssets: task ':app:mergeDebugAssets'
+           mergeDynamicProfileAssets: task ':app:mergeDynamicProfileAssets'
+           mergeDynamicReleaseAssets: task ':app:mergeDynamicReleaseAssets'
+           mergeProfileAssets: task ':app:mergeProfileAssets'
+           mergeReleaseAssets: task ':app:mergeReleaseAssets'
+           modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@baae95
+           modelSchemaStore: org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaStore@39939515
+           module: org.gradle.api.internal.artifacts.ProjectBackedModule@54cd6494
+           name: app
+           normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@4c9ad2b9
+           objects: org.gradle.api.internal.model.DefaultObjectFactory@6ddd3f62
+           org.gradle.jvmargs: -Xmx1536M
+           parent: root project 'android'
+           parentIdentifier: root project 'android'
+           path: :app
+           pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@277d23b
+           plugins: [org.gradle.api.plugins.HelpTasksPlugin@57ec1ae6, com.android.build.gradle.api.AndroidBasePlugin@4d7905b8, org.gradle.language.base.plugins.LifecycleBasePlugin@49db155a, org.gradle.api.plugins.BasePlugin@7581f050, org.gradle.api.plugins.ReportingBasePlugin@428dff2c, org.gradle.api.plugins.JavaBasePlugin@47dc7600, com.android.build.gradle.AppPlugin@563cda64, FlutterPlugin@2cc5a383, com.google.gms.googleservices.GoogleServicesPlugin@11c5da8]
+           processDebugGoogleServices: task ':app:processDebugGoogleServices'
+           processDebugResources: task ':app:processDebugResources'
+           processDynamicProfileGoogleServices: task ':app:processDynamicProfileGoogleServices'
+           processDynamicProfileResources: task ':app:processDynamicProfileResources'
+           processDynamicReleaseGoogleServices: task ':app:processDynamicReleaseGoogleServices'
+           processDynamicReleaseResources: task ':app:processDynamicReleaseResources'
+           processOperations: org.gradle.api.internal.file.DefaultFileOperations@550added
+           processProfileGoogleServices: task ':app:processProfileGoogleServices'
+           processProfileResources: task ':app:processProfileResources'
+           processReleaseGoogleServices: task ':app:processReleaseGoogleServices'
+           processReleaseResources: task ':app:processReleaseResources'
+           project: project ':app'
+           projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@255447fd
+           projectDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/app
+           projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+           projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@150b56c9
+           projectPath: :app
+           projectRegistry: org.gradle.api.internal.project.DefaultProjectRegistry@14532650
+           properties: {...}
+           providers: org.gradle.api.internal.provider.DefaultProviderFactory@6ea72e55
+           reporting: org.gradle.api.reporting.ReportingExtension_Decorated@7741c86f
+           reportsDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/reports
+           repositories: repository container
+           resourceLoader: org.gradle.internal.resource.transfer.DefaultUriTextResourceLoader@70ad12d5
+           resources: org.gradle.api.internal.resources.DefaultResourceHandler@3fdfbf17
+           rootDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/android
+           rootProject: root project 'android'
+           script: false
+           scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@32336f1a
+           scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@4bc8db83
+           serviceRegistryFactory: org.gradle.internal.service.scopes.ProjectScopeServices$4@53eb4395
+           services: ProjectScopeServices
+           sourceCompatibility: 1.8
+           sourceSets: SourceSet container
+           standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@372b1dc7
+           state: project state 'EXECUTED'
+           status: integration
+           subprojects: []
+           targetCompatibility: 1.8
+           tasks: task set
+           testReportDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/reports/tests
+           testReportDirName: tests
+           testResultsDir: /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/test-results
+           testResultsDirName: test-results
+           version: unspecified
+           1 actionable task: 1 executed
+[   +3 ms] executing: [/home/rolly/Documents/cs472/472-2019-travel/gym_space/android/] /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/gradlew app:tasks --all --console=auto
+[+1136 ms] 
+           > Configure project :app
+           Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/dynamicProfile, src/dynamicProfile/nullnull, src/nullnull, src/dynamicProfile, src/nullnullDynamicProfile]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/profile, src/profile/nullnull, src/nullnull, src/profile, src/nullnullProfile]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           Could not find google-services.json while looking in [src/nullnull/dynamicRelease, src/dynamicRelease/nullnull, src/nullnull, src/dynamicRelease, src/nullnullDynamicRelease]
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+           WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+           > Task :app:tasks
+
+           ------------------------------------------------------------
+           All tasks runnable from project :app
+           ------------------------------------------------------------
+
+           Android tasks
+           -------------
+           androidDependencies - Displays the Android dependencies of the project.
+           signingReport - Displays the signing info for the base and test modules
+           sourceSets - Prints out all the source sets defined in this project.
+
+           Build tasks
+           -----------
+           assemble - Assemble main outputs for all the variants.
+           assembleAndroidTest - Assembles all the Test applications.
+           build - Assembles and tests this project.
+           buildDependents - Assembles and tests this project and all projects that depend on it.
+           buildNeeded - Assembles and tests this project and all projects it depends on.
+           bundle - Assemble bundles for all the variants.
+           clean - Deletes the build directory.
+           cleanBuildCache - Deletes the build cache directory.
+           compileDebugAndroidTestSources
+           compileDebugSources
+           compileDebugUnitTestSources
+           compileDynamicProfileSources
+           compileDynamicProfileUnitTestSources
+           compileDynamicReleaseSources
+           compileDynamicReleaseUnitTestSources
+           compileProfileSources
+           compileProfileUnitTestSources
+           compileReleaseSources
+           compileReleaseUnitTestSources
+
+           Cleanup tasks
+           -------------
+           lintFix - Runs lint on all variants and applies any safe suggestions to the source code.
+
+           Help tasks
+           ----------
+           buildEnvironment - Displays all buildscript dependencies declared in project ':app'.
+           components - Displays the components produced by project ':app'. [incubating]
+           dependencies - Displays all dependencies declared in project ':app'.
+           dependencyInsight - Displays the insight into a specific dependency in project ':app'.
+           dependentComponents - Displays the dependent components of components in project ':app'. [incubating]
+           help - Displays a help message.
+           model - Displays the configuration model of project ':app'. [incubating]
+           projects - Displays the sub-projects of project ':app'.
+           properties - Displays the properties of project ':app'.
+           tasks - Displays the tasks runnable from project ':app'.
+
+           Install tasks
+           -------------
+           installDebug - Installs the Debug build.
+           installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+           installDynamicProfile - Installs the DynamicProfile build.
+           installDynamicRelease - Installs the DynamicRelease build.
+           installProfile - Installs the Profile build.
+           installRelease - Installs the Release build.
+           uninstallAll - Uninstall all applications.
+           uninstallDebug - Uninstalls the Debug build.
+           uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+           uninstallDynamicProfile - Uninstalls the DynamicProfile build.
+           uninstallDynamicRelease - Uninstalls the DynamicRelease build.
+           uninstallProfile - Uninstalls the Profile build.
+           uninstallRelease - Uninstalls the Release build.
+
+           Verification tasks
+           ------------------
+           check - Runs all checks.
+           connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+           connectedCheck - Runs all device checks on currently connected devices.
+           connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+           deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+           deviceCheck - Runs all device checks using Device Providers and Test Servers.
+           lint - Runs lint on all variants.
+           lintDebug - Runs lint on the Debug build.
+           lintDynamicProfile - Runs lint on the DynamicProfile build.
+           lintDynamicRelease - Runs lint on the DynamicRelease build.
+           lintProfile - Runs lint on the Profile build.
+           lintRelease - Runs lint on the Release build.
+           lintVitalRelease - Runs lint on just the fatal issues in the release build.
+           test - Run unit tests for all variants.
+           testDebugUnitTest - Run unit tests for the debug build.
+           testDynamicProfileUnitTest - Run unit tests for the dynamicProfile build.
+           testDynamicReleaseUnitTest - Run unit tests for the dynamicRelease build.
+           testProfileUnitTest - Run unit tests for the profile build.
+           testReleaseUnitTest - Run unit tests for the release build.
+
+           Other tasks
+           -----------
+           assembleDebug - Assembles main output for variant debug
+           assembleDebugAndroidTest - Assembles main output for variant debugAndroidTest
+           assembleDebugUnitTest - Assembles main output for variant debugUnitTest
+           assembleDynamicProfile - Assembles main output for variant dynamicProfile
+           assembleDynamicProfileUnitTest - Assembles main output for variant dynamicProfileUnitTest
+           assembleDynamicRelease - Assembles main output for variant dynamicRelease
+           assembleDynamicReleaseUnitTest - Assembles main output for variant dynamicReleaseUnitTest
+           assembleProfile - Assembles main output for variant profile
+           assembleProfileUnitTest - Assembles main output for variant profileUnitTest
+           assembleRelease - Assembles main output for variant release
+           assembleReleaseUnitTest - Assembles main output for variant releaseUnitTest
+           buildDebugPreBundle
+           buildDynamicProfilePreBundle
+           buildDynamicReleasePreBundle
+           buildProfilePreBundle
+           buildReleasePreBundle
+           bundleDebug - Assembles bundle for variant debug
+           bundleDebugAndroidTestClasses
+           bundleDebugAndroidTestResources
+           bundleDebugClasses
+           bundleDebugResources
+           bundleDebugUnitTestClasses
+           bundleDynamicProfile - Assembles bundle for variant dynamicProfile
+           bundleDynamicProfileClasses
+           bundleDynamicProfileResources
+           bundleDynamicProfileUnitTestClasses
+           bundleDynamicRelease - Assembles bundle for variant dynamicRelease
+           bundleDynamicReleaseClasses
+           bundleDynamicReleaseResources
+           bundleDynamicReleaseUnitTestClasses
+           bundleProfile - Assembles bundle for variant profile
+           bundleProfileClasses
+           bundleProfileResources
+           bundleProfileUnitTestClasses
+           bundleRelease - Assembles bundle for variant release
+           bundleReleaseClasses
+           bundleReleaseResources
+           bundleReleaseUnitTestClasses
+           checkDebugManifest
+           checkDynamicProfileManifest
+           checkDynamicReleaseManifest
+           checkProfileManifest
+           checkReleaseManifest
+           compileDebugAidl
+           compileDebugAndroidTestAidl
+           compileDebugAndroidTestJavaWithJavac
+           compileDebugAndroidTestNdk
+           compileDebugAndroidTestRenderscript
+           compileDebugAndroidTestShaders
+           compileDebugJavaWithJavac
+           compileDebugNdk
+           compileDebugRenderscript
+           compileDebugShaders
+           compileDebugUnitTestJavaWithJavac
+           compileDynamicProfileAidl
+           compileDynamicProfileJavaWithJavac
+           compileDynamicProfileNdk
+           compileDynamicProfileRenderscript
+           compileDynamicProfileShaders
+           compileDynamicProfileUnitTestJavaWithJavac
+           compileDynamicReleaseAidl
+           compileDynamicReleaseJavaWithJavac
+           compileDynamicReleaseNdk
+           compileDynamicReleaseRenderscript
+           compileDynamicReleaseShaders
+           compileDynamicReleaseUnitTestJavaWithJavac
+           compileLint
+           compileProfileAidl
+           compileProfileJavaWithJavac
+           compileProfileNdk
+           compileProfileRenderscript
+           compileProfileShaders
+           compileProfileUnitTestJavaWithJavac
+           compileReleaseAidl
+           compileReleaseJavaWithJavac
+           compileReleaseNdk
+           compileReleaseRenderscript
+           compileReleaseShaders
+           compileReleaseUnitTestJavaWithJavac
+           consumeConfigAttr
+           copyFlutterAssetsDebug
+           copyFlutterAssetsDynamicProfile
+           copyFlutterAssetsDynamicRelease
+           copyFlutterAssetsProfile
+           copyFlutterAssetsRelease
+           createDebugCompatibleScreenManifests
+           createDynamicProfileCompatibleScreenManifests
+           createDynamicReleaseCompatibleScreenManifests
+           createMockableJar
+           createProfileCompatibleScreenManifests
+           createReleaseCompatibleScreenManifests
+           extractApksForDebug
+           extractApksForDynamicProfile
+           extractApksForDynamicRelease
+           extractApksForProfile
+           extractApksForRelease
+           extractProguardFiles
+           flutterBuildDebug
+           flutterBuildDynamicProfile
+           flutterBuildDynamicRelease
+           flutterBuildProfile
+           flutterBuildRelease
+           flutterBuildX86Jar
+           generateDebugAndroidTestAssets
+           generateDebugAndroidTestBuildConfig
+           generateDebugAndroidTestResources
+           generateDebugAndroidTestResValues
+           generateDebugAndroidTestSources
+           generateDebugAssets
+           generateDebugBuildConfig
+           generateDebugFeatureMetadata
+           generateDebugFeatureTransitiveDeps
+           generateDebugResources
+           generateDebugResValues
+           generateDebugSources
+           generateDebugUnitTestAssets
+           generateDebugUnitTestResources
+           generateDebugUnitTestSources
+           generateDynamicProfileAssets
+           generateDynamicProfileBuildConfig
+           generateDynamicProfileFeatureMetadata
+           generateDynamicProfileFeatureTransitiveDeps
+           generateDynamicProfileResources
+           generateDynamicProfileResValues
+           generateDynamicProfileSources
+           generateDynamicProfileUnitTestAssets
+           generateDynamicProfileUnitTestResources
+           generateDynamicProfileUnitTestSources
+           generateDynamicReleaseAssets
+           generateDynamicReleaseBuildConfig
+           generateDynamicReleaseFeatureMetadata
+           generateDynamicReleaseFeatureTransitiveDeps
+           generateDynamicReleaseResources
+           generateDynamicReleaseResValues
+           generateDynamicReleaseSources
+           generateDynamicReleaseUnitTestAssets
+           generateDynamicReleaseUnitTestResources
+           generateDynamicReleaseUnitTestSources
+           generateProfileAssets
+           generateProfileBuildConfig
+           generateProfileFeatureMetadata
+           generateProfileFeatureTransitiveDeps
+           generateProfileResources
+           generateProfileResValues
+           generateProfileSources
+           generateProfileUnitTestAssets
+           generateProfileUnitTestResources
+           generateProfileUnitTestSources
+           generateReleaseAssets
+           generateReleaseBuildConfig
+           generateReleaseFeatureMetadata
+           generateReleaseFeatureTransitiveDeps
+           generateReleaseResources
+           generateReleaseResValues
+           generateReleaseSources
+           generateReleaseUnitTestAssets
+           generateReleaseUnitTestResources
+           generateReleaseUnitTestSources
+           javaPreCompileDebug
+           javaPreCompileDebugAndroidTest
+           javaPreCompileDebugUnitTest
+           javaPreCompileDynamicProfile
+           javaPreCompileDynamicProfileUnitTest
+           javaPreCompileDynamicRelease
+           javaPreCompileDynamicReleaseUnitTest
+           javaPreCompileProfile
+           javaPreCompileProfileUnitTest
+           javaPreCompileRelease
+           javaPreCompileReleaseUnitTest
+           mainApkListPersistenceDebug
+           mainApkListPersistenceDebugAndroidTest
+           mainApkListPersistenceDynamicProfile
+           mainApkListPersistenceDynamicRelease
+           mainApkListPersistenceProfile
+           mainApkListPersistenceRelease
+           makeApkFromBundleForDebug
+           makeApkFromBundleForDynamicProfile
+           makeApkFromBundleForDynamicRelease
+           makeApkFromBundleForProfile
+           makeApkFromBundleForRelease
+           mergeDebugAndroidTestAssets
+           mergeDebugAndroidTestJniLibFolders
+           mergeDebugAndroidTestResources
+           mergeDebugAndroidTestShaders
+           mergeDebugAssets
+           mergeDebugJniLibFolders
+           mergeDebugResources
+           mergeDebugShaders
+           mergeDynamicProfileAssets
+           mergeDynamicProfileJniLibFolders
+           mergeDynamicProfileResources
+           mergeDynamicProfileShaders
+           mergeDynamicReleaseAssets
+           mergeDynamicReleaseJniLibFolders
+           mergeDynamicReleaseResources
+           mergeDynamicReleaseShaders
+           mergeProfileAssets
+           mergeProfileJniLibFolders
+           mergeProfileResources
+           mergeProfileShaders
+           mergeReleaseAssets
+           mergeReleaseJniLibFolders
+           mergeReleaseResources
+           mergeReleaseShaders
+           packageDebug
+           packageDebugAndroidTest
+           packageDebugBundle
+           packageDebugUniversalApk
+           packageDynamicProfile
+           packageDynamicProfileBundle
+           packageDynamicProfileUniversalApk
+           packageDynamicRelease
+           packageDynamicReleaseBundle
+           packageDynamicReleaseUniversalApk
+           packageProfile
+           packageProfileBundle
+           packageProfileUniversalApk
+           packageRelease
+           packageReleaseBundle
+           packageReleaseUniversalApk
+           preBuild
+           preDebugAndroidTestBuild
+           preDebugBuild
+           preDebugUnitTestBuild
+           preDynamicProfileBuild
+           preDynamicProfileUnitTestBuild
+           preDynamicReleaseBuild
+           preDynamicReleaseUnitTestBuild
+           prepareLintJar
+           preProfileBuild
+           preProfileUnitTestBuild
+           preReleaseBuild
+           preReleaseUnitTestBuild
+           processDebugAndroidTestJavaRes
+           processDebugAndroidTestManifest
+           processDebugAndroidTestResources
+           processDebugGoogleServices
+           processDebugJavaRes
+           processDebugManifest
+           processDebugResources
+           processDebugUnitTestJavaRes
+           processDynamicProfileGoogleServices
+           processDynamicProfileJavaRes
+           processDynamicProfileManifest
+           processDynamicProfileResources
+           processDynamicProfileUnitTestJavaRes
+           processDynamicReleaseGoogleServices
+           processDynamicReleaseJavaRes
+           processDynamicReleaseManifest
+           processDynamicReleaseResources
+           processDynamicReleaseUnitTestJavaRes
+           processProfileGoogleServices
+           processProfileJavaRes
+           processProfileManifest
+           processProfileResources
+           processProfileUnitTestJavaRes
+           processReleaseGoogleServices
+           processReleaseJavaRes
+           processReleaseManifest
+           processReleaseResources
+           processReleaseUnitTestJavaRes
+           reportBuildArtifactsDebug
+           reportBuildArtifactsDynamicProfile
+           reportBuildArtifactsDynamicRelease
+           reportBuildArtifactsProfile
+           reportBuildArtifactsRelease
+           reportSourceSetTransformAndroidTest
+           reportSourceSetTransformAndroidTestDebug
+           reportSourceSetTransformDebug
+           reportSourceSetTransformDynamicProfile
+           reportSourceSetTransformDynamicRelease
+           reportSourceSetTransformMain
+           reportSourceSetTransformProfile
+           reportSourceSetTransformRelease
+           reportSourceSetTransformTest
+           reportSourceSetTransformTestDebug
+           reportSourceSetTransformTestDynamicProfile
+           reportSourceSetTransformTestDynamicRelease
+           reportSourceSetTransformTestProfile
+           reportSourceSetTransformTestRelease
+           resolveConfigAttr
+           signingConfigWriterDebug
+           signingConfigWriterDebugAndroidTest
+           signingConfigWriterDynamicProfile
+           signingConfigWriterDynamicRelease
+           signingConfigWriterProfile
+           signingConfigWriterRelease
+           transformClassesWithDexBuilderForDebug
+           transformClassesWithDexBuilderForDebugAndroidTest
+           transformClassesWithDexBuilderForDynamicProfile
+           transformClassesWithDexBuilderForDynamicRelease
+           transformClassesWithDexBuilderForProfile
+           transformClassesWithDexBuilderForRelease
+           transformDexArchiveWithDexMergerForDebug
+           transformDexArchiveWithDexMergerForDebugAndroidTest
+           transformDexArchiveWithDexMergerForDynamicProfile
+           transformDexArchiveWithDexMergerForDynamicRelease
+           transformDexArchiveWithDexMergerForProfile
+           transformDexArchiveWithDexMergerForRelease
+           transformDexArchiveWithExternalLibsDexMergerForDebug
+           transformDexArchiveWithExternalLibsDexMergerForDebugAndroidTest
+           transformDexArchiveWithExternalLibsDexMergerForDynamicProfile
+           transformDexArchiveWithExternalLibsDexMergerForDynamicRelease
+           transformDexArchiveWithExternalLibsDexMergerForProfile
+           transformDexArchiveWithExternalLibsDexMergerForRelease
+           transformNativeLibsWithMergeJniLibsForDebug
+           transformNativeLibsWithMergeJniLibsForDebugAndroidTest
+           transformNativeLibsWithMergeJniLibsForDynamicProfile
+           transformNativeLibsWithMergeJniLibsForDynamicRelease
+           transformNativeLibsWithMergeJniLibsForProfile
+           transformNativeLibsWithMergeJniLibsForRelease
+           transformResourcesWithMergeJavaResForDebug
+           transformResourcesWithMergeJavaResForDebugAndroidTest
+           transformResourcesWithMergeJavaResForDebugUnitTest
+           transformResourcesWithMergeJavaResForDynamicProfile
+           transformResourcesWithMergeJavaResForDynamicProfileUnitTest
+           transformResourcesWithMergeJavaResForDynamicRelease
+           transformResourcesWithMergeJavaResForDynamicReleaseUnitTest
+           transformResourcesWithMergeJavaResForProfile
+           transformResourcesWithMergeJavaResForProfileUnitTest
+           transformResourcesWithMergeJavaResForRelease
+           transformResourcesWithMergeJavaResForReleaseUnitTest
+           validateSigningDebug
+           validateSigningDebugAndroidTest
+           validateSigningDynamicProfile
+           validateSigningDynamicRelease
+           validateSigningProfile
+           validateSigningRelease
+           writeDebugApplicationId
+           writeDebugModuleMetadata
+           writeDynamicProfileApplicationId
+           writeDynamicProfileModuleMetadata
+           writeDynamicReleaseApplicationId
+           writeDynamicReleaseModuleMetadata
+           writeProfileApplicationId
+           writeProfileModuleMetadata
+           writeReleaseApplicationId
+           writeReleaseModuleMetadata
+
+           Rules
+           -----
+           Pattern: clean<TaskName>: Cleans the output files of a task.
+           Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+           Pattern: upload<ConfigurationName>: Assembles and uploads the artifacts belonging to a configuration.
+           1 actionable task: 1 executed
+[  +11 ms] Resolving dependencies... (completed in 2.3s)
+[   +1 ms] Running Gradle task 'assembleRelease'...
+[   +3 ms] executing: [/home/rolly/Documents/cs472/472-2019-travel/gym_space/android/] /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/gradlew -Pverbose=true -Ptarget=lib/main.dart -Ptrack-widget-creation=false -Pcompilation-trace-file=compilation.txt -Ptarget-platform=android-arm assembleRelease
+[ +777 ms] > Configure project :app
+[        ] Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] Could not find google-services.json while looking in [src/nullnull/dynamicProfile, src/dynamicProfile/nullnull, src/nullnull, src/dynamicProfile, src/nullnullDynamicProfile]
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] Could not find google-services.json while looking in [src/nullnull/profile, src/profile/nullnull, src/nullnull, src/profile, src/nullnullProfile]
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] Could not find google-services.json while looking in [src/nullnull/dynamicRelease, src/dynamicRelease/nullnull, src/nullnull, src/dynamicRelease, src/nullnullDynamicRelease]
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+[        ] It will be removed at the end of 2019.
+[        ] For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+[        ] To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+[        ] WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+[        ] It will be removed at the end of 2019.
+[        ] For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+[        ] To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+[ +283 ms] > Task :app:preBuild UP-TO-DATE
+[        ] > Task :clipboard_manager:preBuild UP-TO-DATE
+[        ] > Task :clipboard_manager:preReleaseBuild UP-TO-DATE
+[        ] > Task :clipboard_manager:checkReleaseManifest
+[  +98 ms] > Task :clipboard_manager:processReleaseManifest
+[        ] > Task :cloud_firestore:preBuild UP-TO-DATE
+[        ] > Task :cloud_firestore:preReleaseBuild UP-TO-DATE
+[        ] > Task :cloud_firestore:checkReleaseManifest
+[        ] > Task :cloud_firestore:processReleaseManifest
+[        ] > Task :firebase_auth:preBuild UP-TO-DATE
+[        ] > Task :firebase_auth:preReleaseBuild UP-TO-DATE
+[        ] > Task :firebase_auth:checkReleaseManifest
+[        ] > Task :firebase_auth:processReleaseManifest
+[        ] > Task :firebase_core:preBuild UP-TO-DATE
+[        ] > Task :firebase_core:preReleaseBuild UP-TO-DATE
+[   +2 ms] > Task :firebase_core:checkReleaseManifest
+[        ] > Task :firebase_core:processReleaseManifest
+[        ] > Task :firebase_messaging:preBuild UP-TO-DATE
+[        ] > Task :firebase_messaging:preReleaseBuild UP-TO-DATE
+[        ] > Task :firebase_messaging:checkReleaseManifest
+[        ] > Task :firebase_messaging:processReleaseManifest
+[        ] > Task :firebase_storage:preBuild UP-TO-DATE
+[        ] > Task :firebase_storage:preReleaseBuild UP-TO-DATE
+[        ] > Task :firebase_storage:checkReleaseManifest
+[        ] > Task :firebase_storage:processReleaseManifest
+[        ] > Task :flutter_local_notifications:preBuild UP-TO-DATE
+[        ] > Task :flutter_local_notifications:preReleaseBuild UP-TO-DATE
+[        ] > Task :flutter_local_notifications:checkReleaseManifest
+[        ] > Task :flutter_local_notifications:processReleaseManifest
+[        ] > Task :fluttertoast:preBuild UP-TO-DATE
+[        ] > Task :fluttertoast:preReleaseBuild UP-TO-DATE
+[        ] > Task :fluttertoast:checkReleaseManifest
+[        ] > Task :fluttertoast:processReleaseManifest
+[        ] > Task :google_sign_in:preBuild UP-TO-DATE
+[        ] > Task :google_sign_in:preReleaseBuild UP-TO-DATE
+[        ] > Task :google_sign_in:checkReleaseManifest
+[        ] > Task :google_sign_in:processReleaseManifest
+[        ] > Task :image_cropper:preBuild UP-TO-DATE
+[        ] > Task :image_cropper:preReleaseBuild UP-TO-DATE
+[        ] > Task :image_cropper:checkReleaseManifest
+[        ] > Task :image_cropper:processReleaseManifest
+[        ] > Task :image_picker:preBuild UP-TO-DATE
+[        ] > Task :image_picker:preReleaseBuild UP-TO-DATE
+[        ] > Task :image_picker:checkReleaseManifest
+[  +88 ms] > Task :image_picker:processReleaseManifest
+[        ] > Task :image_picker_ui:preBuild UP-TO-DATE
+[        ] > Task :image_picker_ui:preReleaseBuild UP-TO-DATE
+[        ] > Task :image_picker_ui:checkReleaseManifest
+[        ] > Task :image_picker_ui:processReleaseManifest
+[        ] > Task :path_provider:preBuild UP-TO-DATE
+[        ] > Task :path_provider:preReleaseBuild UP-TO-DATE
+[        ] > Task :path_provider:checkReleaseManifest
+[        ] > Task :path_provider:processReleaseManifest
+[        ] > Task :shared_preferences:preBuild UP-TO-DATE
+[        ] > Task :shared_preferences:preReleaseBuild UP-TO-DATE
+[        ] > Task :shared_preferences:checkReleaseManifest
+[        ] > Task :shared_preferences:processReleaseManifest
+[        ] > Task :sqflite:preBuild UP-TO-DATE
+[        ] > Task :sqflite:preReleaseBuild UP-TO-DATE
+[        ] > Task :sqflite:checkReleaseManifest
+[        ] > Task :sqflite:processReleaseManifest
+[  +97 ms] > Task :app:preReleaseBuild
+[        ] > Task :clipboard_manager:compileReleaseAidl NO-SOURCE
+[        ] > Task :cloud_firestore:compileReleaseAidl NO-SOURCE
+[        ] > Task :firebase_auth:compileReleaseAidl NO-SOURCE
+[        ] > Task :firebase_core:compileReleaseAidl NO-SOURCE
+[        ] > Task :firebase_messaging:compileReleaseAidl NO-SOURCE
+[        ] > Task :firebase_storage:compileReleaseAidl NO-SOURCE
+[        ] > Task :flutter_local_notifications:compileReleaseAidl NO-SOURCE
+[        ] > Task :fluttertoast:compileReleaseAidl NO-SOURCE
+[        ] > Task :google_sign_in:compileReleaseAidl NO-SOURCE
+[        ] > Task :image_cropper:compileReleaseAidl NO-SOURCE
+[        ] > Task :image_picker:compileReleaseAidl NO-SOURCE
+[        ] > Task :image_picker_ui:compileReleaseAidl NO-SOURCE
+[        ] > Task :path_provider:compileReleaseAidl NO-SOURCE
+[        ] > Task :shared_preferences:compileReleaseAidl NO-SOURCE
+[        ] > Task :sqflite:compileReleaseAidl NO-SOURCE
+[        ] > Task :app:compileReleaseAidl NO-SOURCE
+[   +1 ms] > Task :clipboard_manager:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :cloud_firestore:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :firebase_auth:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :firebase_core:packageReleaseRenderscript NO-SOURCE
+[   +3 ms] > Task :firebase_messaging:packageReleaseRenderscript NO-SOURCE
+[   +3 ms] > Task :firebase_storage:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :flutter_local_notifications:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :fluttertoast:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :google_sign_in:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :image_cropper:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :image_picker:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :image_picker_ui:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :path_provider:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :shared_preferences:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :sqflite:packageReleaseRenderscript NO-SOURCE
+[        ] > Task :app:compileReleaseRenderscript
+[        ] > Task :app:checkReleaseManifest
+[        ] > Task :app:generateReleaseBuildConfig
+[        ] > Task :app:prepareLintJar UP-TO-DATE
+[        ] > Task :app:generateReleaseSources
+[        ] > Task :clipboard_manager:compileReleaseRenderscript
+[        ] > Task :clipboard_manager:generateReleaseBuildConfig
+[        ] > Task :clipboard_manager:generateReleaseResValues
+[        ] > Task :clipboard_manager:generateReleaseResources
+[        ] > Task :clipboard_manager:packageReleaseResources
+[        ] > Task :clipboard_manager:generateReleaseRFile
+[        ] > Task :clipboard_manager:prepareLintJar UP-TO-DATE
+[        ] > Task :clipboard_manager:generateReleaseSources
+[        ] > Task :clipboard_manager:javaPreCompileRelease
+[  +80 ms] > Task :clipboard_manager:compileReleaseJavaWithJavac
+[        ] > Task :clipboard_manager:processReleaseJavaRes NO-SOURCE
+[        ] > Task :clipboard_manager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :cloud_firestore:compileReleaseRenderscript
+[        ] > Task :cloud_firestore:generateReleaseBuildConfig
+[        ] > Task :cloud_firestore:generateReleaseResValues
+[        ] > Task :cloud_firestore:generateReleaseResources
+[        ] > Task :cloud_firestore:packageReleaseResources
+[  +98 ms] > Task :cloud_firestore:generateReleaseRFile
+[        ] > Task :cloud_firestore:prepareLintJar UP-TO-DATE
+[        ] > Task :cloud_firestore:generateReleaseSources
+[        ] > Task :cloud_firestore:javaPreCompileRelease
+[ +199 ms] > Task :cloud_firestore:compileReleaseJavaWithJavac
+[        ] > Task :cloud_firestore:processReleaseJavaRes NO-SOURCE
+[        ] > Task :cloud_firestore:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[  +99 ms] > Task :firebase_auth:compileReleaseRenderscript
+[        ] > Task :firebase_auth:generateReleaseBuildConfig
+[        ] > Task :firebase_auth:generateReleaseResValues
+[   +1 ms] > Task :firebase_auth:generateReleaseResources
+[        ] > Task :firebase_auth:packageReleaseResources
+[        ] > Task :firebase_auth:generateReleaseRFile
+[        ] > Task :firebase_auth:prepareLintJar UP-TO-DATE
+[        ] > Task :firebase_auth:generateReleaseSources
+[        ] > Task :firebase_auth:javaPreCompileRelease
+[ +196 ms] > Task :firebase_auth:compileReleaseJavaWithJavac
+[        ] > Task :firebase_auth:processReleaseJavaRes NO-SOURCE
+[        ] > Task :firebase_auth:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :firebase_core:compileReleaseRenderscript
+[        ] > Task :firebase_core:generateReleaseBuildConfig
+[        ] > Task :firebase_core:generateReleaseResValues
+[        ] > Task :firebase_core:generateReleaseResources
+[        ] > Task :firebase_core:packageReleaseResources
+[  +93 ms] > Task :firebase_core:generateReleaseRFile
+[        ] > Task :firebase_core:prepareLintJar UP-TO-DATE
+[        ] > Task :firebase_core:generateReleaseSources
+[        ] > Task :firebase_core:javaPreCompileRelease
+[        ] > Task :firebase_core:compileReleaseJavaWithJavac
+[        ] > Task :firebase_core:processReleaseJavaRes NO-SOURCE
+[        ] > Task :firebase_core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[  +97 ms] > Task :firebase_messaging:compileReleaseRenderscript
+[        ] > Task :firebase_messaging:generateReleaseBuildConfig
+[        ] > Task :firebase_messaging:generateReleaseResValues
+[        ] > Task :firebase_messaging:generateReleaseResources
+[        ] > Task :firebase_messaging:packageReleaseResources
+[        ] > Task :firebase_messaging:generateReleaseRFile
+[        ] > Task :firebase_messaging:prepareLintJar UP-TO-DATE
+[        ] > Task :firebase_messaging:generateReleaseSources
+[        ] > Task :firebase_messaging:javaPreCompileRelease
+[  +98 ms] > Task :firebase_messaging:compileReleaseJavaWithJavac
+[        ] > Task :firebase_messaging:processReleaseJavaRes NO-SOURCE
+[        ] > Task :firebase_messaging:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :firebase_storage:compileReleaseRenderscript
+[        ] > Task :firebase_storage:generateReleaseBuildConfig
+[        ] > Task :firebase_storage:generateReleaseResValues
+[        ] > Task :firebase_storage:generateReleaseResources
+[        ] > Task :firebase_storage:packageReleaseResources
+[  +98 ms] > Task :firebase_storage:generateReleaseRFile
+[        ] > Task :firebase_storage:prepareLintJar UP-TO-DATE
+[        ] > Task :firebase_storage:generateReleaseSources
+[        ] > Task :firebase_storage:javaPreCompileRelease
+[  +99 ms] > Task :firebase_storage:compileReleaseJavaWithJavac
+[        ] > Task :firebase_storage:processReleaseJavaRes NO-SOURCE
+[        ] > Task :firebase_storage:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :flutter_local_notifications:compileReleaseRenderscript
+[        ] > Task :flutter_local_notifications:generateReleaseBuildConfig
+[        ] > Task :flutter_local_notifications:generateReleaseResValues
+[        ] > Task :flutter_local_notifications:generateReleaseResources
+[        ] > Task :flutter_local_notifications:packageReleaseResources
+[        ] > Task :flutter_local_notifications:generateReleaseRFile
+[        ] > Task :flutter_local_notifications:prepareLintJar UP-TO-DATE
+[        ] > Task :flutter_local_notifications:generateReleaseSources
+[        ] > Task :flutter_local_notifications:javaPreCompileRelease
+[ +198 ms] > Task :flutter_local_notifications:compileReleaseJavaWithJavac
+[   +1 ms] > Task :flutter_local_notifications:processReleaseJavaRes NO-SOURCE
+[        ] > Task :flutter_local_notifications:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :fluttertoast:compileReleaseRenderscript
+[        ] > Task :fluttertoast:generateReleaseBuildConfig
+[        ] > Task :fluttertoast:generateReleaseResValues
+[        ] > Task :fluttertoast:generateReleaseResources
+[  +98 ms] > Task :fluttertoast:packageReleaseResources
+[        ] > Task :fluttertoast:generateReleaseRFile
+[        ] > Task :fluttertoast:prepareLintJar UP-TO-DATE
+[        ] > Task :fluttertoast:generateReleaseSources
+[        ] > Task :fluttertoast:javaPreCompileRelease
+[  +99 ms] > Task :fluttertoast:compileReleaseJavaWithJavac
+[        ] > Task :fluttertoast:processReleaseJavaRes NO-SOURCE
+[        ] > Task :fluttertoast:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :google_sign_in:compileReleaseRenderscript
+[        ] > Task :google_sign_in:generateReleaseBuildConfig
+[        ] > Task :google_sign_in:generateReleaseResValues
+[        ] > Task :google_sign_in:generateReleaseResources
+[        ] > Task :google_sign_in:packageReleaseResources
+[  +98 ms] > Task :google_sign_in:generateReleaseRFile
+[        ] > Task :google_sign_in:prepareLintJar UP-TO-DATE
+[        ] > Task :google_sign_in:generateReleaseSources
+[        ] > Task :google_sign_in:javaPreCompileRelease
+[  +99 ms] > Task :google_sign_in:compileReleaseJavaWithJavac
+[        ] > Task :google_sign_in:processReleaseJavaRes NO-SOURCE
+[        ] > Task :google_sign_in:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :image_cropper:compileReleaseRenderscript
+[        ] > Task :image_cropper:generateReleaseBuildConfig
+[        ] > Task :image_cropper:generateReleaseResValues
+[        ] > Task :image_cropper:generateReleaseResources
+[        ] > Task :image_cropper:packageReleaseResources
+[  +98 ms] > Task :image_cropper:generateReleaseRFile
+[        ] > Task :image_cropper:prepareLintJar UP-TO-DATE
+[        ] > Task :image_cropper:generateReleaseSources
+[        ] > Task :image_cropper:javaPreCompileRelease
+[  +99 ms] > Task :image_cropper:compileReleaseJavaWithJavac
+[        ] > Task :image_cropper:processReleaseJavaRes NO-SOURCE
+[        ] > Task :image_cropper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :image_picker:compileReleaseRenderscript
+[        ] > Task :image_picker:generateReleaseBuildConfig
+[        ] > Task :image_picker:generateReleaseResValues
+[        ] > Task :image_picker:generateReleaseResources
+[        ] > Task :image_picker:packageReleaseResources
+[  +98 ms] > Task :image_picker:generateReleaseRFile
+[        ] > Task :image_picker:prepareLintJar UP-TO-DATE
+[        ] > Task :image_picker:generateReleaseSources
+[        ] > Task :image_picker:javaPreCompileRelease
+[  +99 ms] > Task :image_picker:compileReleaseJavaWithJavac
+[        ] > Task :image_picker:processReleaseJavaRes NO-SOURCE
+[        ] > Task :image_picker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :image_picker_ui:compileReleaseRenderscript
+[        ] > Task :image_picker_ui:generateReleaseBuildConfig
+[        ] > Task :image_picker_ui:generateReleaseResValues
+[        ] > Task :image_picker_ui:generateReleaseResources
+[        ] > Task :image_picker_ui:packageReleaseResources
+[        ] > Task :image_picker_ui:generateReleaseRFile
+[        ] > Task :image_picker_ui:prepareLintJar UP-TO-DATE
+[        ] > Task :image_picker_ui:generateReleaseSources
+[        ] > Task :image_picker_ui:javaPreCompileRelease
+[        ] > Task :image_picker_ui:compileReleaseJavaWithJavac
+[        ] > Task :image_picker_ui:processReleaseJavaRes NO-SOURCE
+[        ] > Task :image_picker_ui:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :path_provider:compileReleaseRenderscript
+[        ] > Task :path_provider:generateReleaseBuildConfig
+[        ] > Task :path_provider:generateReleaseResValues
+[        ] > Task :path_provider:generateReleaseResources
+[        ] > Task :path_provider:packageReleaseResources
+[  +96 ms] > Task :path_provider:generateReleaseRFile
+[        ] > Task :path_provider:prepareLintJar UP-TO-DATE
+[        ] > Task :path_provider:generateReleaseSources
+[        ] > Task :path_provider:javaPreCompileRelease
+[        ] > Task :path_provider:compileReleaseJavaWithJavac
+[        ] > Task :path_provider:processReleaseJavaRes NO-SOURCE
+[        ] > Task :path_provider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :shared_preferences:compileReleaseRenderscript
+[        ] > Task :shared_preferences:generateReleaseBuildConfig
+[        ] > Task :shared_preferences:generateReleaseResValues
+[        ] > Task :shared_preferences:generateReleaseResources
+[        ] > Task :shared_preferences:packageReleaseResources
+[        ] > Task :shared_preferences:generateReleaseRFile
+[        ] > Task :shared_preferences:prepareLintJar UP-TO-DATE
+[        ] > Task :shared_preferences:generateReleaseSources
+[        ] > Task :shared_preferences:javaPreCompileRelease
+[  +97 ms] > Task :shared_preferences:compileReleaseJavaWithJavac
+[        ] > Task :shared_preferences:processReleaseJavaRes NO-SOURCE
+[        ] > Task :shared_preferences:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :sqflite:compileReleaseRenderscript
+[        ] > Task :sqflite:generateReleaseBuildConfig
+[        ] > Task :sqflite:generateReleaseResValues
+[        ] > Task :sqflite:generateReleaseResources
+[        ] > Task :sqflite:packageReleaseResources
+[        ] > Task :sqflite:generateReleaseRFile
+[        ] > Task :sqflite:prepareLintJar UP-TO-DATE
+[        ] > Task :sqflite:generateReleaseSources
+[        ] > Task :sqflite:javaPreCompileRelease
+[  +97 ms] > Task :sqflite:compileReleaseJavaWithJavac
+[        ] > Task :sqflite:processReleaseJavaRes NO-SOURCE
+[        ] > Task :sqflite:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+[        ] > Task :app:javaPreCompileRelease
+[        ] > Task :app:cleanMergeReleaseAssets UP-TO-DATE
+[+29999 ms] > Task :app:flutterBuildRelease
+[+15299 ms] [   +9 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git log -n 1 --pretty=format:%H
+[  +99 ms] [  +39 ms] Exit code 0 from: git log -n 1 --pretty=format:%H
+[        ] [        ] 09cbc34a0b19cef287a82aa4b9966d525369eecc
+[        ] [        ] executing: [/home/rolly/Documents/SDKs/flutter/] git describe --match v*.*.* --first-parent --long --tags
+[        ] [  +31 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
+[        ] [        ] v1.5.4-hotfix.1-0-g09cbc34a0
+[        ] [   +6 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git rev-parse --abbrev-ref HEAD
+[        ] [   +9 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] [        ] beta
+[  +98 ms] [  +46 ms] executing: [/home/rolly/Documents/SDKs/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [        ] origin/beta
+[        ] [        ] executing: [/home/rolly/Documents/SDKs/flutter/] git ls-remote --get-url origin
+[        ] [   +9 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] [        ] https://github.com/flutter/flutter.git
+[  +98 ms] [  +90 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FuchsiaCacheArtifacts' is not required, skipping update.
+[  +99 ms] [ +133 ms] Found plugin clipboard_manager at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/clipboard_manager-0.0.4/
+[        ] [   +5 ms] Found plugin cloud_firestore at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/
+[        ] [  +16 ms] Found plugin firebase_auth at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/
+[        ] [   +2 ms] Found plugin firebase_core at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/
+[        ] [   +2 ms] Found plugin firebase_messaging at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+4/
+[        ] [   +2 ms] Found plugin firebase_storage at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-1.1.0+1/
+[        ] [  +10 ms] Found plugin flutter_local_notifications at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.5/
+[        ] [   +5 ms] Found plugin fluttertoast at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-2.2.11/
+[  +99 ms] [   +5 ms] Found plugin google_sign_in at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.0.1+3/
+[        ] [   +8 ms] Found plugin image_cropper at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_cropper-0.0.9/
+[        ] [   +8 ms] Found plugin image_picker at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.12+1/
+[        ] [   +2 ms] Found plugin image_picker_ui at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_ui-0.1.2/
+[        ] [   +8 ms] Found plugin path_provider at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/
+[        ] [   +9 ms] Found plugin shared_preferences at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+[        ] [   +4 ms] Found plugin sqflite at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.5/
+[  +99 ms] [  +68 ms] Found plugin clipboard_manager at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/clipboard_manager-0.0.4/
+[        ] [   +1 ms] Found plugin cloud_firestore at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/
+[        ] [   +7 ms] Found plugin firebase_auth at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/
+[        ] [   +1 ms] Found plugin firebase_core at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/
+[        ] [   +1 ms] Found plugin firebase_messaging at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+4/
+[        ] [   +1 ms] Found plugin firebase_storage at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-1.1.0+1/
+[        ] [   +5 ms] Found plugin flutter_local_notifications at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.5/
+[        ] [   +3 ms] Found plugin fluttertoast at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-2.2.11/
+[        ] [   +2 ms] Found plugin google_sign_in at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.0.1+3/
+[        ] [   +2 ms] Found plugin image_cropper at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_cropper-0.0.9/
+[        ] [   +2 ms] Found plugin image_picker at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.12+1/
+[        ] [   +1 ms] Found plugin image_picker_ui at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_ui-0.1.2/
+[        ] [   +4 ms] Found plugin path_provider at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/
+[        ] [   +4 ms] Found plugin shared_preferences at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+[        ] [   +3 ms] Found plugin sqflite at /home/rolly/Documents/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.5/
+[ +298 ms] [ +331 ms] Building bundle
+[        ] [        ] Writing asset files to /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/intermediates/flutter/release/flutter_assets
+[  +99 ms] [  +27 ms] Wrote /home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/intermediates/flutter/release/flutter_assets
+[        ] [  +18 ms] "flutter bundle" took 744ms.
+[        ] [        ] "flutter bundle" took 744ms.
+[ +199 ms] > Task :app:mergeReleaseShaders
+[        ] > Task :app:compileReleaseShaders
+[        ] > Task :app:generateReleaseAssets
+[        ] > Task :clipboard_manager:mergeReleaseShaders
+[        ] > Task :clipboard_manager:compileReleaseShaders
+[        ] > Task :clipboard_manager:generateReleaseAssets
+[        ] > Task :clipboard_manager:packageReleaseAssets
+[        ] > Task :cloud_firestore:mergeReleaseShaders
+[        ] > Task :cloud_firestore:compileReleaseShaders
+[        ] > Task :cloud_firestore:generateReleaseAssets
+[        ] > Task :cloud_firestore:packageReleaseAssets
+[        ] > Task :firebase_auth:mergeReleaseShaders
+[        ] > Task :firebase_auth:compileReleaseShaders
+[        ] > Task :firebase_auth:generateReleaseAssets
+[        ] > Task :firebase_auth:packageReleaseAssets
+[  +97 ms] > Task :firebase_core:mergeReleaseShaders
+[        ] > Task :firebase_core:compileReleaseShaders
+[        ] > Task :firebase_core:generateReleaseAssets
+[        ] > Task :firebase_core:packageReleaseAssets
+[        ] > Task :firebase_messaging:mergeReleaseShaders
+[        ] > Task :firebase_messaging:compileReleaseShaders
+[        ] > Task :firebase_messaging:generateReleaseAssets
+[        ] > Task :firebase_messaging:packageReleaseAssets
+[        ] > Task :firebase_storage:mergeReleaseShaders
+[        ] > Task :firebase_storage:compileReleaseShaders
+[        ] > Task :firebase_storage:generateReleaseAssets
+[        ] > Task :firebase_storage:packageReleaseAssets
+[        ] > Task :flutter_local_notifications:mergeReleaseShaders
+[        ] > Task :flutter_local_notifications:compileReleaseShaders
+[        ] > Task :flutter_local_notifications:generateReleaseAssets
+[        ] > Task :flutter_local_notifications:packageReleaseAssets
+[        ] > Task :fluttertoast:mergeReleaseShaders
+[        ] > Task :fluttertoast:compileReleaseShaders
+[        ] > Task :fluttertoast:generateReleaseAssets
+[        ] > Task :fluttertoast:packageReleaseAssets
+[        ] > Task :google_sign_in:mergeReleaseShaders
+[        ] > Task :google_sign_in:compileReleaseShaders
+[        ] > Task :google_sign_in:generateReleaseAssets
+[        ] > Task :google_sign_in:packageReleaseAssets
+[        ] > Task :image_cropper:mergeReleaseShaders
+[        ] > Task :image_cropper:compileReleaseShaders
+[        ] > Task :image_cropper:generateReleaseAssets
+[        ] > Task :image_cropper:packageReleaseAssets
+[        ] > Task :image_picker:mergeReleaseShaders
+[        ] > Task :image_picker:compileReleaseShaders
+[        ] > Task :image_picker:generateReleaseAssets
+[        ] > Task :image_picker:packageReleaseAssets
+[        ] > Task :image_picker_ui:mergeReleaseShaders
+[        ] > Task :image_picker_ui:compileReleaseShaders
+[        ] > Task :image_picker_ui:generateReleaseAssets
+[        ] > Task :image_picker_ui:packageReleaseAssets
+[        ] > Task :path_provider:mergeReleaseShaders
+[        ] > Task :path_provider:compileReleaseShaders
+[        ] > Task :path_provider:generateReleaseAssets
+[        ] > Task :path_provider:packageReleaseAssets
+[        ] > Task :shared_preferences:mergeReleaseShaders
+[        ] > Task :shared_preferences:compileReleaseShaders
+[        ] > Task :shared_preferences:generateReleaseAssets
+[        ] > Task :shared_preferences:packageReleaseAssets
+[        ] > Task :sqflite:mergeReleaseShaders
+[        ] > Task :sqflite:compileReleaseShaders
+[        ] > Task :sqflite:generateReleaseAssets
+[        ] > Task :sqflite:packageReleaseAssets
+[        ] > Task :app:mergeReleaseAssets
+[ +190 ms] > Task :app:copyFlutterAssetsRelease
+[        ] > Task :app:mainApkListPersistenceRelease
+[        ] > Task :app:generateReleaseResValues
+[        ] > Task :app:generateReleaseResources
+[        ] > Task :app:processReleaseGoogleServices
+[        ] Parsing json file: /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/app/google-services.json
+[+1199 ms] > Task :app:mergeReleaseResources
+[        ] > Task :app:createReleaseCompatibleScreenManifests
+[  +99 ms] > Task :app:processReleaseManifest
+[        ] /home/rolly/Documents/cs472/472-2019-travel/gym_space/android/app/src/main/AndroidManifest.xml:24:9-31:50 Warning:
+[        ] 	activity#com.google.firebase.auth.internal.FederatedSignInActivity@android:launchMode was tagged at AndroidManifest.xml:24 to replace other declarations but no other declaration present
+[ +599 ms] > Task :app:processReleaseResources
+[ +500 ms] > Task :app:compileReleaseJavaWithJavac
+[        ] > Task :app:compileReleaseNdk NO-SOURCE
+[        ] > Task :app:compileReleaseSources
+[+1299 ms] > Task :app:lintVitalRelease
+[        ] > Task :app:validateSigningRelease
+[        ] > Task :app:signingConfigWriterRelease
+[+1899 ms] > Task :app:transformClassesWithDexBuilderForRelease
+[+1800 ms] > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+[+1799 ms] > Task :app:transformDexArchiveWithDexMergerForRelease
+[        ] > Task :app:mergeReleaseJniLibFolders
+[        ] > Task :clipboard_manager:compileReleaseNdk NO-SOURCE
+[        ] > Task :clipboard_manager:mergeReleaseJniLibFolders
+[        ] > Task :clipboard_manager:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :clipboard_manager:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :cloud_firestore:compileReleaseNdk NO-SOURCE
+[        ] > Task :cloud_firestore:mergeReleaseJniLibFolders
+[        ] > Task :cloud_firestore:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :cloud_firestore:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :firebase_auth:compileReleaseNdk NO-SOURCE
+[        ] > Task :firebase_auth:mergeReleaseJniLibFolders
+[        ] > Task :firebase_auth:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :firebase_auth:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :firebase_core:compileReleaseNdk NO-SOURCE
+[        ] > Task :firebase_core:mergeReleaseJniLibFolders
+[        ] > Task :firebase_core:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :firebase_core:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :firebase_messaging:compileReleaseNdk NO-SOURCE
+[        ] > Task :firebase_messaging:mergeReleaseJniLibFolders
+[        ] > Task :firebase_messaging:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :firebase_messaging:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :firebase_storage:compileReleaseNdk NO-SOURCE
+[        ] > Task :firebase_storage:mergeReleaseJniLibFolders
+[        ] > Task :firebase_storage:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :firebase_storage:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :flutter_local_notifications:compileReleaseNdk NO-SOURCE
+[        ] > Task :flutter_local_notifications:mergeReleaseJniLibFolders
+[        ] > Task :flutter_local_notifications:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :flutter_local_notifications:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :fluttertoast:compileReleaseNdk NO-SOURCE
+[        ] > Task :fluttertoast:mergeReleaseJniLibFolders
+[        ] > Task :fluttertoast:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :fluttertoast:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :google_sign_in:compileReleaseNdk NO-SOURCE
+[        ] > Task :google_sign_in:mergeReleaseJniLibFolders
+[        ] > Task :google_sign_in:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :google_sign_in:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :image_cropper:compileReleaseNdk NO-SOURCE
+[        ] > Task :image_cropper:mergeReleaseJniLibFolders
+[        ] > Task :image_cropper:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :image_cropper:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :image_picker:compileReleaseNdk NO-SOURCE
+[        ] > Task :image_picker:mergeReleaseJniLibFolders
+[        ] > Task :image_picker:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :image_picker:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :image_picker_ui:compileReleaseNdk NO-SOURCE
+[        ] > Task :image_picker_ui:mergeReleaseJniLibFolders
+[        ] > Task :image_picker_ui:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :image_picker_ui:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :path_provider:compileReleaseNdk NO-SOURCE
+[        ] > Task :path_provider:mergeReleaseJniLibFolders
+[        ] > Task :path_provider:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :path_provider:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :shared_preferences:compileReleaseNdk NO-SOURCE
+[        ] > Task :shared_preferences:mergeReleaseJniLibFolders
+[        ] > Task :shared_preferences:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :shared_preferences:transformNativeLibsWithIntermediateJniLibsForRelease
+[        ] > Task :sqflite:compileReleaseNdk NO-SOURCE
+[        ] > Task :sqflite:mergeReleaseJniLibFolders
+[        ] > Task :sqflite:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :sqflite:transformNativeLibsWithIntermediateJniLibsForRelease
+[ +591 ms] > Task :app:transformNativeLibsWithMergeJniLibsForRelease
+[        ] > Task :app:processReleaseJavaRes NO-SOURCE
+[ +499 ms] > Task :app:transformResourcesWithMergeJavaResForRelease
+[+9400 ms] > Task :app:packageRelease
+[        ] > Task :app:assembleRelease
+[  +99 ms] > Task :clipboard_manager:extractReleaseAnnotations
+[        ] > Task :clipboard_manager:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :clipboard_manager:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :clipboard_manager:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :clipboard_manager:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :clipboard_manager:bundleReleaseAar
+[        ] > Task :clipboard_manager:compileReleaseSources
+[        ] > Task :clipboard_manager:mergeReleaseResources
+[        ] > Task :clipboard_manager:verifyReleaseResources
+[        ] > Task :clipboard_manager:assembleRelease
+[        ] > Task :cloud_firestore:extractReleaseAnnotations
+[        ] > Task :cloud_firestore:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :cloud_firestore:transformResourcesWithMergeJavaResForRelease
+[  +99 ms] > Task :cloud_firestore:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :cloud_firestore:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :cloud_firestore:bundleReleaseAar
+[        ] > Task :cloud_firestore:compileReleaseSources
+[ +299 ms] > Task :cloud_firestore:mergeReleaseResources
+[ +100 ms] > Task :cloud_firestore:verifyReleaseResources
+[        ] > Task :cloud_firestore:assembleRelease
+[        ] > Task :firebase_auth:extractReleaseAnnotations
+[        ] > Task :firebase_auth:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :firebase_auth:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :firebase_auth:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :firebase_auth:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :firebase_auth:bundleReleaseAar
+[        ] > Task :firebase_auth:compileReleaseSources
+[ +199 ms] > Task :firebase_auth:mergeReleaseResources
+[ +200 ms] > Task :firebase_auth:verifyReleaseResources
+[        ] > Task :firebase_auth:assembleRelease
+[        ] > Task :firebase_core:extractReleaseAnnotations
+[        ] > Task :firebase_core:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :firebase_core:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :firebase_core:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :firebase_core:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :firebase_core:bundleReleaseAar
+[        ] > Task :firebase_core:compileReleaseSources
+[ +198 ms] > Task :firebase_core:mergeReleaseResources
+[ +100 ms] > Task :firebase_core:verifyReleaseResources
+[        ] > Task :firebase_core:assembleRelease
+[        ] > Task :firebase_messaging:extractReleaseAnnotations
+[        ] > Task :firebase_messaging:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :firebase_messaging:transformResourcesWithMergeJavaResForRelease
+[  +99 ms] > Task :firebase_messaging:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :firebase_messaging:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :firebase_messaging:bundleReleaseAar
+[        ] > Task :firebase_messaging:compileReleaseSources
+[ +299 ms] > Task :firebase_messaging:mergeReleaseResources
+[ +400 ms] > Task :firebase_messaging:verifyReleaseResources
+[        ] > Task :firebase_messaging:assembleRelease
+[        ] > Task :firebase_storage:extractReleaseAnnotations
+[        ] > Task :firebase_storage:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :firebase_storage:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :firebase_storage:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :firebase_storage:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :firebase_storage:bundleReleaseAar
+[        ] > Task :firebase_storage:compileReleaseSources
+[ +398 ms] > Task :firebase_storage:mergeReleaseResources
+[  +99 ms] > Task :firebase_storage:verifyReleaseResources
+[        ] > Task :firebase_storage:assembleRelease
+[  +99 ms] > Task :flutter_local_notifications:extractReleaseAnnotations
+[        ] > Task :flutter_local_notifications:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :flutter_local_notifications:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :flutter_local_notifications:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :flutter_local_notifications:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :flutter_local_notifications:bundleReleaseAar
+[        ] > Task :flutter_local_notifications:compileReleaseSources
+[  +99 ms] > Task :flutter_local_notifications:mergeReleaseResources
+[  +99 ms] > Task :flutter_local_notifications:verifyReleaseResources
+[        ] > Task :flutter_local_notifications:assembleRelease
+[        ] > Task :fluttertoast:extractReleaseAnnotations
+[        ] > Task :fluttertoast:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :fluttertoast:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :fluttertoast:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :fluttertoast:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :fluttertoast:bundleReleaseAar
+[        ] > Task :fluttertoast:compileReleaseSources
+[ +199 ms] > Task :fluttertoast:mergeReleaseResources
+[ +299 ms] > Task :fluttertoast:verifyReleaseResources
+[        ] > Task :fluttertoast:assembleRelease
+[        ] > Task :google_sign_in:extractReleaseAnnotations
+[        ] > Task :google_sign_in:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :google_sign_in:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :google_sign_in:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :google_sign_in:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :google_sign_in:bundleReleaseAar
+[        ] > Task :google_sign_in:compileReleaseSources
+[ +200 ms] > Task :google_sign_in:mergeReleaseResources
+[ +198 ms] > Task :google_sign_in:verifyReleaseResources
+[        ] > Task :google_sign_in:assembleRelease
+[  +99 ms] > Task :image_cropper:extractReleaseAnnotations
+[        ] > Task :image_cropper:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :image_cropper:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :image_cropper:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :image_cropper:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :image_cropper:bundleReleaseAar
+[        ] > Task :image_cropper:compileReleaseSources
+[ +299 ms] > Task :image_cropper:mergeReleaseResources
+[ +299 ms] > Task :image_cropper:verifyReleaseResources
+[        ] > Task :image_cropper:assembleRelease
+[        ] > Task :image_picker:extractReleaseAnnotations
+[        ] > Task :image_picker:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :image_picker:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :image_picker:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :image_picker:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :image_picker:bundleReleaseAar
+[  +98 ms] > Task :image_picker:compileReleaseSources
+[ +100 ms] > Task :image_picker:mergeReleaseResources
+[  +99 ms] > Task :image_picker:verifyReleaseResources
+[        ] > Task :image_picker:assembleRelease
+[        ] > Task :image_picker_ui:extractReleaseAnnotations
+[        ] > Task :image_picker_ui:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :image_picker_ui:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :image_picker_ui:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :image_picker_ui:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :image_picker_ui:bundleReleaseAar
+[        ] > Task :image_picker_ui:compileReleaseSources
+[        ] > Task :image_picker_ui:mergeReleaseResources
+[        ] > Task :image_picker_ui:verifyReleaseResources
+[        ] > Task :image_picker_ui:assembleRelease
+[        ] > Task :path_provider:extractReleaseAnnotations
+[        ] > Task :path_provider:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :path_provider:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :path_provider:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :path_provider:transformNativeLibsWithSyncJniLibsForRelease
+[  +98 ms] > Task :path_provider:bundleReleaseAar
+[        ] > Task :path_provider:compileReleaseSources
+[        ] > Task :path_provider:mergeReleaseResources
+[        ] > Task :path_provider:verifyReleaseResources
+[        ] > Task :path_provider:assembleRelease
+[        ] > Task :shared_preferences:extractReleaseAnnotations
+[        ] > Task :shared_preferences:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :shared_preferences:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :shared_preferences:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :shared_preferences:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :shared_preferences:bundleReleaseAar
+[        ] > Task :shared_preferences:compileReleaseSources
+[        ] > Task :shared_preferences:mergeReleaseResources
+[  +98 ms] > Task :shared_preferences:verifyReleaseResources
+[        ] > Task :shared_preferences:assembleRelease
+[        ] > Task :sqflite:extractReleaseAnnotations
+[        ] > Task :sqflite:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] > Task :sqflite:transformResourcesWithMergeJavaResForRelease
+[        ] > Task :sqflite:transformClassesAndResourcesWithSyncLibJarsForRelease
+[        ] > Task :sqflite:transformNativeLibsWithSyncJniLibsForRelease
+[        ] > Task :sqflite:bundleReleaseAar
+[        ] > Task :sqflite:compileReleaseSources
+[        ] > Task :sqflite:mergeReleaseResources
+[  +91 ms] > Task :sqflite:verifyReleaseResources
+[        ] > Task :sqflite:assembleRelease
+[        ] 405 actionable tasks: 373 executed, 32 up-to-date
+[ +338 ms] Running Gradle task 'assembleRelease'... (completed in 75.8s)
+[  +25 ms] calculateSha: LocalDirectory: '/home/rolly/Documents/cs472/472-2019-travel/gym_space/build/app/outputs/apk'/app.apk
+[ +297 ms] Built build/app/outputs/apk/release/app-release.apk (11.7MB).
+[   +2 ms] "flutter apk" took 80,435ms.
+[        ] "flutter apk" took 80,435ms.
